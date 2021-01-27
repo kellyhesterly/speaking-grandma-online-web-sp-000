@@ -3,7 +3,7 @@ require 'pry'
 def speak_to_grandma(phrase)
   if phrase = "I LOVE YOU GRADMA!"
    return "I LOVE YOU TOO PUMPKIN!"
- elsif phrase = "Hi Nana, how are you?".downcase
+ elsif phrase.downcase
     return "HUH?! SPEAK UP, SONNY!"
   else phrase.upcase
     return "NO, NOT SINCE 1938!"
