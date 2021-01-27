@@ -1,9 +1,9 @@
 require 'pry'
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
-  if phrase = "I LOVE YOU GRADMA!"
+  if phrase == "I LOVE YOU GRADMA!"
    return "I LOVE YOU TOO PUMPKIN!"
- elsif !phrase.upcase
+ elsif phrase.downcase
     return "HUH?! SPEAK UP, SONNY!"
   else phrase.upcase
     return "NO, NOT SINCE 1938!"
